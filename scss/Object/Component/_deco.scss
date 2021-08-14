@@ -1,0 +1,14 @@
+.c-deco {
+  &-underLine {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -15%;
+      display: inline-block;
+      width: 64px;
+      height: 4px;
+      background-color: $color-font-white;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.c-text {
+  &-siteTitle {
+    font-size: 4rem;
+    font-weight: bold;
+    @include pc {
+      font-size: 6.4rem;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  &-mv {
+    font-weight: bold;
+    color: $color-font-white;
+    line-height: 1;
+    &Title {
+      font-size: 3.6rem;
+      @include tab {
+        font-size: 6rem;
+      }
+    }
+    &Sub {
+      font-size: 1.6rem;
+    }
+  }
+  &-card {
+    &Title {
+      &-fr {
+        color: $color-font-white;
+        font-size: 4.1rem;
+        font-weight: bold;
+      }
+      &-ar {
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: $color-font-main;
+      }
+    }
+    &-p {
+      font-size: 1.6rem;
+      color: $color-font-main;
+    }
+    &-menu {
+      color: $color-font-white;
+      font-weight: bold;
+      &Name {
+        font-size: 2rem;
+      }
+      &Sub {
+        font-size: 1.6rem;
+      }
+      &-p {
+        font-size: 1.6rem;
+        font-weight: normal;
+        width: 80%;
+      }
+    }
+    &__inr {
+      &Title {
+        font-size: 2.2rem;
+        font-weight: bold;
+        color: $color-font-main;
+      }
+      &P {
+        font-size: 1.6rem;
+        color: $color-font-main;
+      }
+    }
+  }
+  &-map {
+    color: $color-font-white;
+    font-weight: bold;
+    &Title {
+      font-size: 3rem;
+      @include pc {
+        font-size: 3.6rem;
+      }
+    }
+    &p {
+      font-size: 1.4rem;
+      line-height: 2.35;
+    }
+  }
+  &-footer {
+    &__link {
+      a {
+      font-size: 2rem;
+      transition: all 0.2s;
+      &:hover {
+        color: $color-font-main;
+      }
+      }
+      
+    }
+  }
+  &-menu {
+    font-size: 2.4rem;
+    font-weight: bold;
+    &-item {
+      font-size: 2rem;
+      font-weight: normal;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  &-bold {
+    font-family: 'mplus-1m';
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  &-pagination {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  &-search-result {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $color-font-main;
+  }
+}

@@ -1,0 +1,22 @@
+.c-grid {
+  @include pc {
+    display: grid;
+    grid-template:
+      "header aside"  217px
+      "main   aside"  1fr
+      "footer footer" 150px
+    /  80%    20%;
+    .l-header {
+      grid-area: header;
+    }
+    .l-aside {
+      grid-area: aside;
+    }
+    .l-main {
+      grid-area: main;
+    }
+    .l-footer {
+      grid-area: footer;
+    }
+  }
+}

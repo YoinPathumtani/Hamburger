@@ -1,0 +1,25 @@
+.l-aside {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: -100vw;
+  z-index: 10;
+  transition: right .7s;
+  width: 87.5%;
+  @include tab {
+    width: 44%;
+  }
+  @include pc {
+    position: static;
+    width: 100%;
+  }
+  &.show {
+    display: block;
+    right: 0;
+    overflow-y: scroll;
+  }
+}
+
+#menu-cateogrymenu {
+  padding-top: 220px;
+}

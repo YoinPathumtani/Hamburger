@@ -1,0 +1,128 @@
+.p-card {
+  margin: 20px;
+  &-service {
+    padding: 3.2%;
+    min-height: 642px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include tab {
+      width: 40%;
+    }
+    &01 {
+      background-image: url('../images/index/l-section__service-bg01.png');
+    }
+    &02 {
+      background-image: url('../images/index/l-section__service-bg02.png');
+    }
+    &__inr {
+      background-color: $color-overlay-white;
+      height: 162px;
+      margin-top: 3.2%;position: relative;
+      h3 {
+        position: absolute;
+        top: 5%;
+        left: 4%;
+      }
+      p {
+        position: absolute;
+        top: calc(50% - 8px);
+        left: 4%;
+      }
+    }
+  }
+  &-text {
+    height: 345px;
+    @include tab {
+      height: 255px;
+    }
+    p {
+      margin-top: 30px;
+    }
+  }
+  &-menu {
+    height: 585px;
+    background-color: $color-bg-box;
+    @include tab {
+      height: 354px;
+      display: flex;
+    }
+    img {
+      display: block;
+      object-fit: cover;
+      height: 40%;
+      @include tab {
+        width: 50%;
+        height: 100%;
+      }
+    }
+    &Text {
+      padding: 17px;
+      height: 60%;
+      position: relative;
+      @include tab {
+        width: 50%;
+        height: 100%;
+      }
+      h2, h3 {
+        margin-top: 5%;
+      }
+      p {
+        margin-top: 10px;
+        overflow-y: hidden;
+      }
+      a {
+        position: absolute;
+        bottom: 10%;
+        left: calc(50% - 25%);
+      }
+    }
+  }
+  &-h {
+    color: $color-font-main;
+    font-size: 1.6rem;
+    font-weight: bold;
+    min-height: 100vh;
+    h2 {
+      font-size: 2.8rem;
+    }
+    h3 {
+      font-size: 2.4rem;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+    h5 {
+      font-size: 2rem;
+    }
+    h6 {
+      font-size: 2rem;
+    }    
+    p {
+      margin-bottom: 30px;
+      font-weight: normal;
+      overflow-y: hidden;
+    }
+  }
+  &-blockquote {
+    background-color: $color-bg-blockquote;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: $color-bg-box;
+    & > p {
+      height: 505px;
+      overflow-y: hidden;
+    }
+    div {
+      margin-top: 30px;
+      display: flex;
+      a {
+        text-decoration: underline;
+        color: $color-font-link;
+      }
+    }
+  }
+}

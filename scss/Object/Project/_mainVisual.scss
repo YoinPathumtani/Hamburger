@@ -1,0 +1,48 @@
+.p-mainVisual {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  div {
+    @include tab {
+      display: flex;
+      align-items: center;
+    }
+  }
+  h3 {
+    @include tab {
+      padding:10px;
+      margin-top: 10px;
+    }
+  }
+  &-fr {
+    background-image: url('../images/index/l-section__mv-bg.png');
+  }
+  &-pg {
+    background-image: url('../images/page/l-section__mv-bg.png');
+  }
+  &-ar {
+    background-image: url('../images/archive/l-section__mv-bg.png');
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: $color-overlay-black50;
+    }
+  }
+  &-si {
+    background-image: url('../images/single/l-section__mv-bg.png');
+  }
+  &-404 {
+    background-image: url('../images/404error.png');
+    &-text {
+      padding: 20px;
+      min-height: 120vh;
+      a {
+        font-size: 1.6rem;
+        text-decoration: underline;
+      }
+    }
+  }
+  
+}
