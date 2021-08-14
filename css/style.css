@@ -166,7 +166,11 @@ blockquote {
 }
 
 #menu-footermenu a {
-  font-size: 1.6rem;
+  font-size: 2rem;
+}
+
+#menu-footermenu a:hover {
+  color: #3C2A10;
 }
 
 .l-header {

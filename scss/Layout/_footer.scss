@@ -3,4 +3,7 @@
 }
 #menu-footermenu a {
   font-size: 2rem;
+  &:hover {
+    color: $color-font-main;
+  }
 }
