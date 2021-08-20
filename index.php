@@ -7,15 +7,15 @@
     </div>
   </section>
   <a class="p-card p-card-service p-card-service01" href="/index.php?cat=14">
-    <h2 class="c-text-cardTitle-fr c-deco-underLine">TakeOut</h2>
+    <h2 class="c-text-cardTitle-fr c-deco-underLine">Eat In</h2>
     <div class="p-card-service__text">
       <div class="p-card-service__inr">
-        <h3 class="c-text-card__inrTitle">Take Out</h3>
-        <p class="c-text-card__inrP">当店のテイクアウトで利用できる商品を掲載しています</p>
+        <h3 class="c-text-card__inrTitle">Eat In</h3>
+        <p class="c-text-card__inrP">店内で利用できる商品を掲載しています</p>
       </div>
       <div class="p-card-service__inr">
         <h3 class="c-text-card__inrTitle">Eat In</h3>
-        <p class="c-text-card__inrP">当店のテイクアウトで利用できる商品を掲載しています</p>
+        <p class="c-text-card__inrP">店内で利用できる商品を掲載しています</p>
       </div>
     </div>
   </a>
